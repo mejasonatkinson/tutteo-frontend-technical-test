@@ -1,5 +1,17 @@
-# Vue 3 + TypeScript + Vite
+# Senior Front-End Developer: Technical Test - Audio Player
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project was initially created using the Vite CLI by running `npm create vite@latest` and uses Vue.js 3 and TypeScript.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+To run the project, please install the dependencies first: `npm install`.  
+Before running, use `npm run dev` to spin up a local development server for visual testing.
+
+`npm run build` can be used to build the project when ready for production.
+
+ESLint and Prettier are used within this project to enforce code standards:
+- `npm run format`
+- `npm run check`
+- `npm run lint`
+
+Components are arranged using atomic design best practices.
+
+This project also uses Pinia for state management.
