@@ -1,0 +1,26 @@
+:root {
+    --f-font-common: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --f-font-heading: Cambon, Georgia, serif;
+    --f-ink: #2f3446;
+    --f-white: #fff;
+    --f-white-rgb: 255, 255, 255;
+    --f-tutteo-purple-dark: #4f32c2;
+    --f-tutteo-purple: #6545e4;
+    --f-edu-green-10: #e7f3ed;
+    --f-flat-blue-10: #e7eefb;
+    --f-grey-3: #858fa9;
+    --f-grey-disabled: var(--f-grey-3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: var(--f-font-common);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--f-ink);
+}
